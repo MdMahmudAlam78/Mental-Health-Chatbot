@@ -27,11 +27,11 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot designed to answe
    python -m venv venv
    source venv/bin/activate   # On Windows: venv\Scripts\activate
 3.Install dependencies:
-  ```bash
-  pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 4.Run the App:
-  ```bash
-  python run_app.py
+   ```bash
+   python run_app.py
 
 ## Future Work: Multi-Turn Mental Health Chatbot
 
