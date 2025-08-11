@@ -20,8 +20,7 @@ The RAG model enables the chatbot to retrieve relevant information from a knowle
 1. Clone the repository
 2. Set up Python environment and install dependencies (`requirements.txt`)
 3. Prepare the knowledge base dataset
-4. Run the Flask backend server
-5. Interact with the chatbot via the provided API or UI
+4. Interact with the chatbot via the provided API or UI
 
 ---
 
@@ -49,5 +48,5 @@ This project is currently focused on single-turn interactions using the RAG mode
 ## Contributions & Contact
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-For questions or collaboration, contact: [your-email@example.com]
+For questions or collaboration, contact: [mahmudalam3210@gmail.com]
 
