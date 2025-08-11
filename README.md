@@ -1,28 +1,28 @@
-# Mental Health Chatbot with RAG Model
+# Mental Health Chatbot using RAG
 
 ## Project Overview
-This project implements a **mental health chatbot** using a **Retrieval-Augmented Generation (RAG)** model. The chatbot is designed to provide accurate and context-aware responses by combining information retrieval with generative language modeling.
+This project is a Retrieval-Augmented Generation (RAG) chatbot designed to answer mental health queries using WHO's Mental Health Gap Guidelines PDF as the knowledge base. It leverages LangChain, FAISS, and transformer embeddings to provide accurate and reliable information.
 
-The RAG model enables the chatbot to retrieve relevant information from a knowledge base and generate natural language responses tailored to the user's queries. This approach improves the quality of diagnosis and advice related to mental health concerns.
+## Features
+- PDF document loading and chunking
+- Semantic search with vector embeddings
+- Question-answering with pre-trained language models
+- Simple Flask/Gradio interface for interaction
 
-## Key Features
-- Retrieval of relevant knowledge snippets to enhance response accuracy
-- Generation of contextual, natural language replies based on retrieved data
-- Handling of user inputs related to mental health symptoms and feelings
-- Designed for deployment in real-time chatbot applications
+## Folder Structure
+- `app.py`: Main application code
+- `run_app.py`: Script to launch the chatbot
+- `build_index.py`: Script to create vector index from PDF
+- `faiss_index/`: Stores vector index files
+- `mental_health_book.pdf`: WHO guidelines document used as source
+- `requirements.txt`: List of required Python packages
 
-## Technologies Used
-- Python
-- Hugging Face Transformers (RAG architecture)
-- Streamlt(for frontend)
-- FAISS
-## How to Run
-1. Clone the repository
-2. Set up Python environment and install dependencies (`requirements.txt`)
-3. Prepare the knowledge base dataset
-4. Interact with the chatbot via the provided API or UI
+## Setup Instructions
+1. Clone the repo:
+   ```bash
+   git clone <your-repo-url>
+   cd mental_health_chatbot
 
----
 
 ## Future Work: Multi-Turn Mental Health Chatbot
 
