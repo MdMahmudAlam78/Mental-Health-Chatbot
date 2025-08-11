@@ -33,9 +33,6 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot designed to answe
   ```bash
   python run_app.py
 
-
-
-
 ## Future Work: Multi-Turn Mental Health Chatbot
 
 This project is currently focused on single-turn interactions using the RAG model. Future improvements include:
