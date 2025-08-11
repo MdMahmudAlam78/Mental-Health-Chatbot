@@ -23,10 +23,10 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot designed to answe
    git clone <your-repo-url>
    cd mental_health_chatbot
 2.Create virtual environment and activate:
-   ```bash```
+   ```bash
    python -m venv venv
    source venv/bin/activate   # On Windows: venv\Scripts\activate
-  
+  ```
    
 ## Future Work: Multi-Turn Mental Health Chatbot
 
