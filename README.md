@@ -31,7 +31,7 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot designed to answe
    ```bash
    pip install -r requirements.txt
    ```
-4.4.Run the App:
+4.Run the App:
   ```bash
    python run_app.py
   ```
