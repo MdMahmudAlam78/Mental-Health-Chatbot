@@ -14,10 +14,8 @@ The RAG model enables the chatbot to retrieve relevant information from a knowle
 ## Technologies Used
 - Python
 - Hugging Face Transformers (RAG architecture)
-- PyTorch / TensorFlow (as backend)
-- Flask (for backend API)
-- MongoDB (for knowledge base storage)
-
+- Streamlt(for frontend)
+- FAISS
 ## How to Run
 1. Clone the repository
 2. Set up Python environment and install dependencies (`requirements.txt`)
