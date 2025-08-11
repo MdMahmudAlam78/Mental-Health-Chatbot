@@ -18,10 +18,11 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot designed to answe
 - `requirements.txt`: List of required Python packages
 
 ## Setup Instructions
-1. Clone the repo:
+1.Clone the repo:
    ```bash
    git clone <your-repo-url>
    cd mental_health_chatbot
+   ```
 2.Create virtual environment and activate:
    ```bash
    python -m venv venv
