@@ -20,7 +20,7 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot designed to answe
 ## Setup Instructions
 1.Clone the repo:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/MdMahmudAlam78/Mental-Health-Chatbot.git
    cd mental_health_chatbot
    ```
 2.Create virtual environment and activate:
