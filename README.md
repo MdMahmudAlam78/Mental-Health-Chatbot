@@ -34,7 +34,7 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot designed to answe
    ```
 4.Run the App:
   ```bash
-   python run_app.py
+   python run_app.py #incase of error-    python -m streamlit run app.py
   ```
    
 ## Future Work: Multi-Turn Mental Health Chatbot
